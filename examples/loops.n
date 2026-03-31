@@ -3,3 +3,5 @@ func countToFive()
         loop i < 5
                 i = i + 1
         return i
+x = 5
+print x
