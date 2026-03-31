@@ -1,0 +1,7 @@
+func stress(a, b, c)
+        if a > b
+                loop c < 100
+                        c = c + a
+                        if c > 50
+                                return c
+        return 0

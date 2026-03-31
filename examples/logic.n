@@ -1,0 +1,4 @@
+func test(a, b)
+        if a > 10 && b < 5
+                return "ok"
+        return "fail"

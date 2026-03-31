@@ -1,0 +1,5 @@
+func check(value)
+        if value == 10
+                return "ten"
+        else
+                return "not ten"

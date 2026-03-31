@@ -1,0 +1,46 @@
+{
+  "name": "n-vscode",
+  "displayName": "N Syntax",
+  "author": {
+    "name": "cvrf"
+  },
+  "publisher": "cvrf",
+  "pricing": "Free",
+  "description": "Syntax highlighting for the N DSL",
+  "version": "0.1.0",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "n",
+    "dsl",
+    "language",
+    "syntax",
+    "highlighting"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cv-rf/n-vscode"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "n-vscode",
+        "extensions": [".n"],
+        "aliases": ["N"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "n",
+        "scopeName": "source.n",
+        "path": "./syntaxes/n.tmLanguage.json"
+      }
+    ]
+  }
+}

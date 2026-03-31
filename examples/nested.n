@@ -1,0 +1,8 @@
+func complex(x)
+        if x > 10
+                if x > 20
+                        return "big"
+                else
+                        return "medium"
+        else
+                return "small"
