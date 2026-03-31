@@ -6,7 +6,7 @@
     "name": "cvrf"
   },
   "description": "Syntax highlighting for the N DSL",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
@@ -39,6 +39,12 @@
         "language": "n",
         "scopeName": "source.n",
         "path": "./syntaxes/n.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "n",
+        "path": "./snippets/n.json"
       }
     ],
     "configurationDefaults": {

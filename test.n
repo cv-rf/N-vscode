@@ -1,0 +1,3 @@
+func test(a)
+        if a
+                return a
