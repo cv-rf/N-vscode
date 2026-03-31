@@ -1,13 +1,12 @@
 {
   "name": "n-vscode",
   "displayName": "N Syntax",
+  "publisher": "cvrf",
   "author": {
     "name": "cvrf"
   },
-  "publisher": "cvrf",
-  "pricing": "Free",
   "description": "Syntax highlighting for the N DSL",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
@@ -29,7 +28,7 @@
   "contributes": {
     "languages": [
       {
-        "id": "n-vscode",
+        "id": "n",
         "extensions": [".n"],
         "aliases": ["N"],
         "configuration": "./language-configuration.json"
@@ -41,6 +40,13 @@
         "scopeName": "source.n",
         "path": "./syntaxes/n.tmLanguage.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "[n]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+      }
+    }
   }
 }

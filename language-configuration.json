@@ -12,5 +12,9 @@
     { "open": "[", "close": "]" },
     { "open": "(", "close": ")" },
     { "open": "\"", "close": "\"" }
-  ]
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": ".*\\b(func|if|loop)\\b.*",
+    "decreaseIndentPattern": "^(return|break|continue)"
+  },
 }
