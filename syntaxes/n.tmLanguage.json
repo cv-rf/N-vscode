@@ -43,7 +43,13 @@
         {
           "name": "string.quoted.double.n",
           "begin": "\"",
-          "end": "\""
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.n",
+              "match": "\\\\."
+            }
+          ]
         }
       ]
     },
